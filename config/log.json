@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "console": {
+      "enable": true,
+      "level": ["debug", "info", "warn", "error", "critical"]
+    },
+    "file": {
+      "enable": true,
+      "level": ["info", "warn", "error", "critical"],
+      "path": "./logs/",
+      "name": "app",
+      "max_size": 10485760,
+      "max_files": 10
+    },
+    "async": false,
+    "flush_level": "error"
+  }
+}
